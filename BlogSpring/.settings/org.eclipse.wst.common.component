@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BlogSpring">
+        <wb-resource deploy-path="/" source-path="/context" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="BlogSpring"/>
+        <property name="java-output-path" value="/BlogSpring/context/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
