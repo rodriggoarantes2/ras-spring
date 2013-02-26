@@ -18,16 +18,14 @@ import com.ras.vo.PostVO;
  */
 @Controller
 public class PostControler {
-
+	
 	private static final Logger log = Logger.getLogger(PostControler.class);
-
 
 	@Autowired
 	private PostDAO postDao;
 
 	@Autowired
 	private ComentarioDAO comentarioDao; 
-	
 	
 	@RequestMapping(value = "/posts", method = RequestMethod.GET)
 	public String list(ModelMap modelMap) {

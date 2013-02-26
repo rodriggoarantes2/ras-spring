@@ -23,6 +23,7 @@
 	<!-- que possuem a anotação @Controller. -->
     <mvc:annotation-driven />
     
+    
 	<bean id="postDao" class="com.ras.dao.PostDAO" />
 	<bean id="comentarioDao" class="com.ras.dao.ComentarioDAO" />
     
